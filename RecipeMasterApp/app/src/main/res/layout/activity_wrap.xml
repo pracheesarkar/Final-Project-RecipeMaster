@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sweet and Spicy Chicken Wrap"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_margin="16dp"
+        android:paddingLeft="16dp"
+        android:background="#E6CEFB"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:id="@+id/title_img"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_wrap_foreground"
+        app:layout_constraintTop_toBottomOf="@+id/title_text"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ingredients_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp"
+        android:paddingLeft="16dp"
+        android:background="#E6CEFB"
+        app:layout_constraintTop_toBottomOf="@id/title_img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/ingredients_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="½ cup mayonnaise\n1/4 cup finely chopped seedless cucumber\n1 tbsp honey (for sauce)\n1/2 tsp cayenne pepper (for sauce)\n ground pepper to taste\n2 tbsp olive oil\n1 ½ pounds skinless, boneless chicken breast halves - cut into thin strips\n 1 cup thick and chunky salsa\n1 tbsp honey (for wrap)\n½ tsp cayenne pepper\n 8 (10 inch) flour tortillas\n1 (10 ounce) bag of baby spinach leaves"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintTop_toBottomOf="@id/ingredients_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/directions_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Directions:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp"
+        android:paddingLeft="16dp"
+        android:background="#E6CEFB"
+        app:layout_constraintTop_toBottomOf="@id/ingredients_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/directions_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 1: Make the sauce: Mix mayonnaise, cucumber, honey, cayenne pepper, and black pepper together in a bowl until smooth. Cover and refrigerate until needed.\n\nStep 2: Make the wraps: Heat olive oil in a skillet on medium-high heat. Add chicken strips; cook and stir until they start to turn golden and are no longer pink in the middle, about 8 minutes. Stir in salsa, honey, and cayenne pepper. Reduce the heat to medium-low; simmer, stirring occasionally, until flavors have blended, about 5 minutes.\n\nStep 3: Stack tortillas, 4 at a time, in a microwave oven and heat until warm and pliable, 20 to 30 seconds per batch.\n\nStep 4: Spread each tortilla with 1 tablespoon mayonnaise-cucumber sauce, top with a layer of spinach, and arrange about 1/2 cup of the chicken mixture on top.\n\nStep 5: Fold the bottom of each tortilla up about 2 inches, and start rolling from the right side. When the wrap is halfway rolled, fold the top of the tortilla down, enclosing the filling, and continue rolling to make a tight, compact cylinder."
+        android:textSize="12sp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintTop_toBottomOf="@id/directions_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginBottom="644dp"
+        android:backgroundTint="#E6CEFB"
+        android:gravity="bottom"
+        android:text="back"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vegetable Stir Fry"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_margin="16dp"
+        android:paddingLeft="16dp"
+        android:background="#5F4B97"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:id="@+id/title_img"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_stirfry"
+        app:layout_constraintTop_toBottomOf="@+id/title_text"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ingredients_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp"
+        android:paddingLeft="16dp"
+        android:background="#5F4B97"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/title_img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/ingredients_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 large carrot, sliced\n2 cups medium broccoli florets\n8 oz can baby corn spears, drained\n8 oz mushrooms (white or brown), sliced or quartered\n1 whole pepper (red, yellow or orange), seeded and sliced\n2 Tbsp cooking oil\n2 Tbsp unsalted butter\n3 garlic cloves, peeled and minced\n2 tsp ginger, minced"
+        android:textSize="16sp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintTop_toBottomOf="@id/ingredients_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/directions_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Directions:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp"
+        android:paddingLeft="16dp"
+        android:background="#5F4B97"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/ingredients_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/directions_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 1: In a large non-stick skillet or wok, over medium heat, heat the oil. Add the vegetable and stir fry about 3 minutes or until vegetables are crisp-tender. Add the butter, garlic, ginger and cook until fragrant.\n\nStep 2: In a small bowl, combine all the ingredients for the stir fry sauce. Pour the sauce over the vegetables and stir.\n\nStep 3: Turn heat down to medium/low and cook 3-4 minutes, until sauce thickens and vegetables are desired tenderness."
+
+        android:textSize="16sp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintTop_toBottomOf="@id/directions_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginBottom="680dp"
+        android:backgroundTint="@color/white"
+        android:gravity="bottom"
+        android:text="back"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

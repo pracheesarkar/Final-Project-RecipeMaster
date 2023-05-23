@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="@mipmap/ic_pancake_foreground"
+        app:layout_constraintBottom_toTopOf="@+id/btn_pancake"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btn_pancake"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="336dp"
+        android:backgroundTint="#FBCC91"
+        android:text="Pancakes"
+        app:layout_constraintBottom_toTopOf="@+id/btn_frenchtoast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="@mipmap/ic_frenchtoast_foreground"
+        app:layout_constraintBottom_toTopOf="@+id/btn_frenchtoast"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_frenchtoast"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FBCC91"
+        android:text="French Toast"
+        android:layout_marginTop="300dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pancake"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/white"
+        android:gravity="bottom"
+        android:text="back"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

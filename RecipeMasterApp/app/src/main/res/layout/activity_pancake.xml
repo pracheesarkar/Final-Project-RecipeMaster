@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBCC91">
+
+    <ImageView
+        android:id="@+id/img_pancake"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="56dp"
+        android:src="@mipmap/ic_pancake_foreground"
+        app:layout_constraintBottom_toTopOf="@+id/btn_pancake_click"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_pancake_click"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FBCC91"
+        android:text="Click to View Recipe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_pancake" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginBottom="680dp"
+        android:backgroundTint="@color/white"
+        android:gravity="bottom"
+        android:text="back"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
