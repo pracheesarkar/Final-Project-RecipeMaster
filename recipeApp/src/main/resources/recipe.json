@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "name": "Pancake",
+    "category": "Breakfast",
+    "yield": "8",
+    "ingredientsList": [
+      {
+        "ingredientAmt": "1.5 cups",
+        "ingredientName": "all-purpose flour"
+      },
+      {
+        "ingredientAmt": "3.5 tsp",
+        "ingredientName": "baking powder"
+      },
+      {
+        "ingredientAmt": "1 tbsp",
+        "ingredientName": "white sugar"
+      },
+      {
+        "ingredientAmt": "0.25 tsp",
+        "ingredientName": "salt, or more to taste"
+      },
+      {
+        "ingredientAmt": "1.25 cups",
+        "ingredientName": "milk"
+      },
+      {
+        "ingredientAmt": "3 tbsp",
+        "ingredientName": "butter, melted"
+      },
+      {
+        "ingredientAmt": "1",
+        "ingredientName": "egg"
+      }
+    ],
+    "directionsList": [
+      {
+        "directionStep": 1,
+        "directionInstruction": "Sift flour, baking powder, sugar, and salt together in a large bowl. Make a well in the center and add milk, melted butter, and egg; mix until smooth."
+      },
+      {
+        "directionStep": 2,
+        "directionInstruction": "Heat a lightly oiled griddle or pan over medium-high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake; cook until bubbles form and the edges are dry, about 2 to 3 minutes. Flip and cook until browned on the other side. Repeat with remaining batter."
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "name": "French Toast",
+    "category": "Breakfast",
+    "yield": "6 slices",
+    "ingredientsList": [
+      {
+        "ingredientAmt": "2/3 cup",
+        "ingredientName": "milk"
+      },
+      {
+        "ingredientAmt": "2",
+        "ingredientName": "large eggs"
+      },
+      {
+        "ingredientAmt": "1 tsp",
+        "ingredientName": "vanilla extract (optional)"
+      },
+      {
+        "ingredientAmt": "1/4 tsp",
+        "ingredientName": "ground cinnamon (optional)"
+      },
+      {
+        "ingredientAmt": "",
+        "ingredientName": "salt to taste"
+      },
+      {
+        "ingredientAmt": "6 slices",
+        "ingredientName": "thick bread"
+      },
+      {
+        "ingredientAmt": "1 tbsp",
+        "ingredientName": "unsalted butter (or more as needed)"
+      }
+    ],
+    "directionsList": [
+      {
+        "directionStep": 1,
+        "directionInstruction": "Gather all ingredients."
+      },
+      {
+        "directionStep": 2,
+        "directionInstruction": "Whisk milk, eggs, vanilla, cinnamon, and salt together in a shallow bowl."
+      },
+      {
+        "directionStep": 3,
+        "directionInstruction": "Lightly butter a griddle or skillet and heat over medium-high heat."
+      },
+      {
+        "directionStep": 4,
+        "directionInstruction": "Dunk bread in the egg mixture, soaking both sides."
+      },
+      {
+        "directionStep": 5,
+        "directionInstruction": "Transfer to the hot skillet and cook until golden, 3 to 4 minutes per side."
+      },
+      {
+        "directionStep": 6,
+        "directionInstruction": "Serve hot."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Sweet and Sour Chicken Wrap",
+    "category": "Lunch",
+    "yield": "8 wraps",
+    "ingredientsList": [
+      {
+        "ingredientAmt": "1/2 cup",
+        "ingredientName": "mayonnaise"
+      },
+      {
+        "ingredientAmt": "1/4 cup",
+        "ingredientName": "finely chopped seedless cucumber"
+      },
+      {
+        "ingredientAmt": "1 tbsp",
+        "ingredientName": "honey (for sauce)"
+      },
+      {
+        "ingredientAmt": "½ tsp",
+        "ingredientName": "cayenne pepper (for sauce)"
+      },
+      {
+        "ingredientAmt": "",
+        "ingredientName": "ground pepper to taste"
+      },
+      {
+        "ingredientAmt": "2 tbsp",
+        "ingredientName": "olive oil"
+      },
+      {
+        "ingredientAmt": "1 ½ pounds",
+        "ingredientName": "skinless, boneless chicken breast halves - cut into thin strips"
+      },
+      {
+        "ingredientAmt": "1 cup",
+        "ingredientName": "thick and chunky salsa"
+      },
+      {
+        "ingredientAmt": "1 tbsp",
+        "ingredientName": "honey (for wrap)"
+      },
+      {
+        "ingredientAmt": "½ tsp",
+        "ingredientName": "cayenne pepper"
+      },
+      {
+        "ingredientAmt": "8",
+        "ingredientName": "(10 inch) flour tortillas"
+      },
+      {
+        "ingredientAmt": "1 (10 ounce)",
+        "ingredientName": "bad of baby spinach leaves"
+      }
+    ],
+    "directionsList": [
+      {
+        "directionStep": 1,
+        "directionInstruction": "Make the sauce: Mix mayonnaise, cucumber, honey, cayenne pepper, and black pepper together in a bowl until smooth. Cover and refrigerate until needed."
+      },
+      {
+        "directionStep": 2,
+        "directionInstruction": "Make the wraps: Heat olive oil in a skillet on medium-high heat. Add chicken strips; cook and stir until they start to turn golden and are no longer pink in the middle, about 8 minutes. Stir in salsa, honey, and cayenne pepper. Reduce the heat to medium-low; simmer, stirring occasionally, until flavors have blended, about 5 minutes."
+      },
+      {
+        "directionStep": 3,
+        "directionInstruction": "Stack tortillas, 4 at a time, in a microwave oven and heat until warm and pliable, 20 to 30 seconds per batch."
+      },
+      {
+        "directionStep": 4,
+        "directionInstruction": "Spread each tortilla with 1 tablespoon mayonnaise-cucumber sauce, top with a layer of spinach, and arrange about 1/2 cup of the chicken mixture on top."
+      },
+      {
+        "directionStep": 5,
+        "directionInstruction": "Fold the bottom of each tortilla up about 2 inches, and start rolling from the right side. When the wrap is halfway rolled, fold the top of the tortilla down, enclosing the filling, and continue rolling to make a tight, compact cylinder."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Pasta Salad",
+    "category": "Lunch",
+    "yield": "12 servings",
+    "ingredientsList": [
+      {
+        "ingredientAmt": "1 (16 ounce)",
+        "ingredientName": "package of uncooked rotini pasta"
+      },
+      {
+        "ingredientAmt": "1 (16 ounce)",
+        "ingredientName": "bottle Italian salad dressing"
+      },
+      {
+        "ingredientAmt": "2",
+        "ingredientName": "cucumbers, chopped"
+      },
+      {
+        "ingredientAmt": "6",
+        "ingredientName": "tomatoes, chopped"
+      },
+      {
+        "ingredientAmt": "1 bunch",
+        "ingredientName": "green onions, chopped"
+      },
+      {
+        "ingredientAmt": "4 ounces",
+        "ingredientName": "grated Parmesan cheese"
+      },
+      {
+        "ingredientAmt": "1 tbsp",
+        "ingredientName": "Italian seasoning"
+      }
+    ],
+    "directionsList": [
+      {
+        "directionStep": 1,
+        "directionInstruction": "Gather all ingredients"
+      },
+      {
+        "directionStep": 2,
+        "directionInstruction": "Bring a large pot of lightly salted water to a boil. Place pasta in the pot, cook for 8 to 12 minutes, until al dente, and drain."
+      },
+      {
+        "directionStep": 3,
+        "directionInstruction": "Toss cooked pasta with Italian dressing, cucumbers, tomatoes, and green onions in a large bowl. Mix Parmesan cheese and Italian seasoning in a small bowl, and gently mix into the salad."
+      },
+      {
+        "directionStep": 4,
+        "directionInstruction": "Mix Parmesan cheese and Italian seasoning in a small bowl, and gently mix into the salad. Cover, and refrigerate for at least 30 minutes before serving."
+      },
+      {
+        "directionStep": 5,
+        "directionInstruction": "Enjoy!"
+      }
+    ]
+  },
+
+  {
+    "id": 5,
+    "name": "Chicken Noodle Soup",
+    "category": "Dinner",
+    "yield": "6 servings",
+    "ingredientsList": [
+      {
+        "ingredientAmt": "1 tbsp",
+        "ingredientName": "butter"
+      },
+      {
+        "ingredientAmt": "½ cup",
+        "ingredientName": "chopped onion"
+      },
+      {
+        "ingredientAmt": "½ cup",
+        "ingredientName": "chopped celery"
+      },
+      {
+        "ingredientAmt": "4 (14.5 ounce)",
+        "ingredientName": "cans chicken broth"
+      },
+      {
+        "ingredientAmt": "1 (14.5 ounce)",
+        "ingredientName": "can vegetable broth"
+      },
+      {
+        "ingredientAmt": "½ pound",
+        "ingredientName": "chopped cooked chicken breast"
+      },
+      {
+        "ingredientAmt": "1 ½ cup",
+        "ingredientName": "egg noodles"
+      },
+      {
+        "ingredientAmt": "1 cup",
+        "ingredientName": "sliced carrots"
+      },
+      {
+        "ingredientAmt": "½ tsp",
+        "ingredientName": "dried basil"
+      },
+      {
+        "ingredientAmt": "½ tsp",
+        "ingredientName": "dried oregano"
+      },
+      {
+        "ingredientAmt": "",
+        "ingredientName": "salt and ground pepper to taste"
+      }
+    ],
+    "directionsList": [
+      {
+        "directionStep": 1,
+        "directionInstruction": "Melt butter in a large pot over medium heat. Add onion and celery and cook until just tender, about 5 minutes."
+      },
+      {
+        "directionStep": 2,
+        "directionInstruction": "Add chicken broth, vegetable broth, chicken, egg noodles, carrots, basil, oregano, salt, and pepper. Stir to combine and bring to a boil."
+      },
+      {
+        "directionStep": 3,
+        "directionInstruction": "Reduce heat and simmer for 20 minutes."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Vegetable Stir Fry",
+    "category": "Dinner",
+    "yield": "4 servings",
+    "ingredientsList": [
+      {
+        "ingredientAmt": "1",
+        "ingredientName": "large carrot, sliced"
+      },
+      {
+        "ingredientAmt": "2 cups",
+        "ingredientName": "medium broccoli florets"
+      },
+      {
+        "ingredientAmt": "8 oz can",
+        "ingredientName": "baby corn spears, drained"
+      },
+      {
+        "ingredientAmt": "8 oz",
+        "ingredientName": "mushrooms (white or brown), sliced or quartered"
+      },
+      {
+        "ingredientAmt": "1",
+        "ingredientName": "whole pepper (red, yellow, or orange), seeded or quartered"
+      },
+      {
+        "ingredientAmt": "2 tbsp",
+        "ingredientName": "cooking oil (extra light olive oil or canola)"
+      },
+      {
+        "ingredientAmt": "2 tbsp",
+        "ingredientName": "unsalted butter"
+      },
+      {
+        "ingredientAmt": "3 tbsp",
+        "ingredientName": "garlic cloves, peeled and minced"
+      },
+      {
+        "ingredientAmt": "2 tsp",
+        "ingredientName": "ginger (minced)"
+      },
+      {
+        "ingredientAmt": "½ cup",
+        "ingredientName": "chicken (or vegetable) broth (for sauce)"
+      },
+      {
+        "ingredientAmt": "½ tsp",
+        "ingredientName": "cornstarch (for sauce)"
+      },
+      {
+        "ingredientAmt": "3 tbsp",
+        "ingredientName": "low sodium soy sauce (substitute with Tamari for gluten free) (for sauce)"
+      },
+      {
+        "ingredientAmt": "2 tbsp",
+        "ingredientName": "honey (for sauce)"
+      },
+      {
+        "ingredientAmt": "¼ tsp",
+        "ingredientName": "hot sauce (optional for sauce)"
+      }
+    ],
+    "directionsList": [
+      {
+        "directionStep": 1,
+        "directionInstruction": "In a large non-stick skillet or wok, over medium heat, heat the oil. Add the vegetables and stir fry for about 3 minutes or until vegetables are crisp-tender. Add the butter, garlic, ginger and cook until fragrant."
+      },
+      {
+        "directionStep": 2,
+        "directionInstruction": "In a small bowl, combine all the ingredients for the stir fry sauce. Pour the sauce over the vegetables and stir."
+      },
+      {
+        "directionStep": 3,
+        "directionInstruction": "Turn heat down to medium/low and cook 3-4 minutes, until sauce thickens and vegetables are desired tenderness."
+      }
+    ]
+  }
+]
